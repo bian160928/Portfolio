@@ -2,11 +2,14 @@
   %i.fab.fa-wikipedia-w
   = link_to root_path, class: "prof" do
     Home
-  .prof Profile
-  .prof Access
-  .prof GitHub
+  = link_to root_path, class: "prof" do
+    Profile
+  = link_to root_path, class: "prof" do
+    Access
+  = link_to root_path, class: "prof" do
+    GitHub
   .app -Made Application-
-  = link_to beat_tops_path, class: "make-app" do
+  = link_to beat_tops_path, class: "make-beat" do
     韻strumental
-  = link_to peace_tops_path, class: "make-app" do
+  = link_to peace_tops_path, class: "make-peace" do
     PEACE fitness
