@@ -4,4 +4,7 @@ class TopsController < ApplicationController
 
   def beat
   end
+
+  def peace
+  end
 end

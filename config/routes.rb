@@ -5,5 +5,8 @@ Rails.application.routes.draw do
     collection do
       get 'beat'
     end
+    collection do
+      get 'peace'
+    end
   end
 end
