@@ -1,0 +1,26 @@
+.header-beat {
+  background-image: url("flower.jpeg");
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  .beat-title {
+    position: absolute;
+    right: 60px;
+    top: 420px;
+    .title {
+      color: white;
+      text-shadow: 0 0 9px rgba(0,0,0,0.4);
+      font-size: 55px;
+      font-family: serif;
+      letter-spacing: 10px;
+    }
+    .sub {
+      font-size: 20px;
+      color: white;
+      text-shadow: 0 0 9px rgba(0,0,0,0.4);
+      margin-top: 30px;
+      font-family: serif;
+      text-align: center;
+    }
+  }
+}
