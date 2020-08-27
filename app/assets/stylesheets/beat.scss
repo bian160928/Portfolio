@@ -7,12 +7,17 @@
     position: absolute;
     right: 60px;
     top: 420px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     .title {
       color: white;
       text-shadow: 0 0 9px rgba(0,0,0,0.4);
       font-size: 55px;
       font-family: serif;
       letter-spacing: 10px;
+      background-color: rgba(0, 0, 255, 0.3);
+      padding-left: 3px;
     }
     .sub {
       font-size: 20px;
@@ -25,10 +30,15 @@
     .url {
       color: white;
       text-shadow: 0 0 9px rgba(0,0,0,0.4);
+      width: 320px;
       font-size: 20px;
       font-family: serif;
       text-align: center;
       display: block;
+      transition: all  0.3s ease;
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+      }
     }
   }
 }

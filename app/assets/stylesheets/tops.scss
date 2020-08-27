@@ -55,6 +55,12 @@
       text-shadow: 0 0 5px rgba(0,0,0,0.4);
       font-family: serif;
       text-decoration: none;
+      transition: all  0.3s ease;
+      padding-left: 2px;
+      padding-right: 2px;
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.4);
+      }
     }
     .app {
       margin-top: 180px;
@@ -64,12 +70,30 @@
       text-shadow: 0 0 5px rgba(0,0,0,0.4);
       font-family: serif;
     }
-    .make-app {
+    .make-beat {
       color: white;
       font-size: 15px;
       text-shadow: 0 0 5px rgba(0,0,0,0.4);
       font-family: serif;
       text-decoration: none;
+      transition: all  0.3s ease;
+      &:hover {
+        background-color: rgba(0, 0, 255, 0.3);
+        padding: 4px;
+      }
+    }
+    .make-peace {
+      color: white;
+      font-size: 15px;
+      text-shadow: 0 0 5px rgba(0,0,0,0.4);
+      font-family: serif;
+      text-decoration: none;
+      transition: all  0.3s ease;
+      &:hover {
+        background-color: rgba(255,238,1,0.4);
+        padding-left: 2px;
+        padding-right: 2px;
+      }
     }
   }
 }
