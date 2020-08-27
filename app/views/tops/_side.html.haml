@@ -1,8 +1,10 @@
 .header-left
-  %i.fab.fa-wikipedia-w
+  = link_to root_path do
+    %i.fab.fa-wikipedia-w
   .prof Profile
   .prof Access
   .prof GitHub
   .app -Made Application-
-  .make-app 韻strumental
+  = link_to beat_tops_path, class: "make-app" do
+    韻strumental
   .make-app PEACE fitness

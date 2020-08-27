@@ -5,46 +5,12 @@
 .wrapper {
   height: 100vh;
   width: 100%;
+  position: relative;
   .header {
     min-height: 100vh;
     background-size: cover;
     position: relative;
     background-image: url("sea.jpg");
-    .header-left {
-      width: 260px;
-      height: 100vh;
-      border-right: 1px solid whitesmoke;
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      .fab {
-        font-size: 120px;
-        padding-top: 40px;
-        color: white;
-        margin-bottom: 180px;
-        text-shadow: 0 0 5px rgba(0,0,0,0.4);
-      }
-      .prof {
-        font-size: 20px;
-        color: white;
-        text-shadow: 0 0 5px rgba(0,0,0,0.4);
-        font-family: serif;
-      }
-      .app {
-        margin-top: 180px;
-        font-size: 20px;
-        color: white;
-        margin-bottom: 10px;
-        text-shadow: 0 0 5px rgba(0,0,0,0.4);
-        font-family: serif;
-      }
-      .make-app {
-        color: white;
-        font-size: 15px;
-        text-shadow: 0 0 5px rgba(0,0,0,0.4);
-        font-family: serif;
-      }
-    }
     .header-right {
       position: absolute;
       right: 60px;
@@ -64,6 +30,46 @@
         font-family: serif;
         text-align: center;
       }
+    }
+  }
+  .header-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 100vh;
+    border-right: 1px solid whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .fab {
+      font-size: 120px;
+      padding-top: 40px;
+      color: white;
+      margin-bottom: 180px;
+      text-shadow: 0 0 5px rgba(0,0,0,0.4);
+    }
+    .prof {
+      font-size: 20px;
+      color: white;
+      text-shadow: 0 0 5px rgba(0,0,0,0.4);
+      font-family: serif;
+      text-decoration: none;
+    }
+    .app {
+      margin-top: 180px;
+      font-size: 20px;
+      color: white;
+      margin-bottom: 10px;
+      text-shadow: 0 0 5px rgba(0,0,0,0.4);
+      font-family: serif;
+    }
+    .make-app {
+      color: white;
+      font-size: 15px;
+      text-shadow: 0 0 5px rgba(0,0,0,0.4);
+      font-family: serif;
+      text-decoration: none;
     }
   }
 }
