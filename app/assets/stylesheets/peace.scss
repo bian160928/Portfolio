@@ -43,8 +43,8 @@
   }
   .contents {
     position: absolute;
-    left: 320px;
-    top: 100px;
+    left: 350px;
+    top: 120px;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -52,14 +52,23 @@
       color: white;
       font-size: 23px;
       font-family: serif;
-      text-shadow: 0 0 9px rgba(0,0,0,0.4);
+      text-shadow: 0 0 9px rgba(0,0,0,0.7);
     }
     .sentences {
       font-size: 16px;
       color: white;
       margin-left: 35px;
-      text-shadow: 0 0 9px rgba(0,0,0,0.4);
+      text-shadow: 0 0 9px rgba(0,0,0,0.7);
       font-family: serif;
+      margin-bottom: 15px;
+      width: 500px;
+      transition: all  0.1s ease;
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.5);
+        font-size: 18px;
+        width: 570px;
+        padding: 5px;
+      }
     }
   }
 }
