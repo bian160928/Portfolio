@@ -7,22 +7,27 @@
       = link_to "https://peaceness.herokuapp.com/", class: "url" do
         https://peaceness.herokuapp.com/
     .contents
-      .contents__list ・Overview
+      .contents__list ・概要
       .sentences 私の友人が運営するパーソナルジムのWebサイトです。クライアントが見やすくシンプルに、そして主に女性客向けに作って欲しいとの友人の要望にお答えできるように作成させていただきました。注目点を友人からいくつか挙げられその注目点にクライアントが出来るだけ目が向きやすいように心がけました。
-      .contents__list ・Language used
+      .contents__list ・使用言語
       .sentences Haml/Scss/Ruby on Rails
-      .contents__list ・Function
+      .contents__list ・使用サイト
+      = link_to "https://pixabay.com/ja/", class: "sentences" do
+        pixabay
+      = link_to "https://www.designevo.com/jp/apps/logo/", class: "sentences" do
+        DesignEvo
+      .contents__list ・機能
       .sentences 
         %ul
           %li ・ワンタッチで予約の電話、Instagram、GoogleMapに移行する機能
           %li ・バナーから見たい項目にスライド移動機能
-      .contents__list ・Creation period
+      .contents__list ・実装期間
       .sentences 08/23~08/25
-      .contents__list ・Media
+      .contents__list ・画面対応
       .sentences 対応機種 iPhone/スマートフォン/iPad/タブレット
       .contents__list ・Repository
       = link_to "https://github.com/bian160928/peace", class: "sentences" do
         https://github.com/bian160928/peace
-      .contents__list ・Other
+      .contents__list ・その他
       .sentences サイト運営側からの投稿機能などは友人に聞いたところ不必要との事だったので作成しておりません。 
   = render partial: 'side'

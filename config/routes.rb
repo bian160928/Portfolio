@@ -8,5 +8,8 @@ Rails.application.routes.draw do
     collection do
       get 'peace'
     end
+    collection do
+      get 'profile'
+    end
   end
 end

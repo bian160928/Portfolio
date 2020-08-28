@@ -7,23 +7,26 @@
       = link_to "https://findbeat.herokuapp.com/", class: "url" do
         https://findbeat.herokuapp.com/
     .contents
-      .contents__list ・Overview
+      .contents__list ・概要
       .sentences 「自分のお気に入りのトラックメーカーを見つけたい。自分の評価しているトラックメーカーの方にビートを作ってもらいたい」と言う希望にお答えした、HipHop,Reggae専用のトラックミュージックサイトです。
-      .contents__list ・Language used
+      .contents__list ・使用言語
       .sentences Haml/Scss/jQuery/Ruby/Ruby on Rails
-      .contents__list ・Function
+      .contents__list ・使用サイト
+      = link_to "https://pixabay.com/ja/", class: "sentences" do
+        pixabay
+      .contents__list ・機能
       .sentences 
         %ul
-          %li ・ユーザー登録機能/マーページ機能 ・検索機能
+          %li ・ユーザー登録機能/マイページ機能 ・検索機能
           %li ・画像/音楽/ジャンル投稿機能 ・いいね機能/いいね一覧
           %li ・ジャンル別機能 ・コメント機能(非同期)
-      .contents__list ・Creation period
+      .contents__list ・実装期間
       .sentences 07/18~08/04, 08/21~08/22, 08/25~08/26 
-      .contents__list ・Media
+      .contents__list ・画面対応
       .sentences 対応機種   iPhone/スマートフォン
       .contents__list ・Repository
       = link_to "https://github.com/bian160928/blog", class: "sentences" do
         https://github.com/bian160928/blog
-      .contents__list ・Other
+      .contents__list ・その他
       .sentences 音楽投稿サイトですが、著作権などの関係もありバケットは作成せずに一つのポートフォリオとして活用する予定ですので、 投稿していただいた写真と音楽は数分後に自動的に消去されます。
   = render partial: 'side'

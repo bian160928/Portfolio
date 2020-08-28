@@ -1,0 +1,47 @@
+.header-prof {
+  background-image: url("sea.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  .prof-title {
+    position: absolute;
+    right: 60px;
+    top: 420px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .title {
+      color: white;
+      text-shadow: 0 0 9px rgba(0,0,0,0.4);
+      font-size: 55px;
+      font-family: serif;
+      letter-spacing: 10px;
+      position: relative;animation: fadeIn 2s ease 0s 1 normal;
+      -webkit-animation: fadeIn 2s ease 0s 1 normal;
+    }
+  }
+  .contents {
+    position: absolute;
+    top: 170px;
+    left: 400px;
+    .list {
+      font-size: 23px;
+      color: white;
+      text-shadow: 0 0 9px rgba(0,0,0,0.4);
+      font-family: serif;
+      margin-bottom: 10px;
+      position: relative;animation: fadeIn 2s ease 0s 1 normal;
+      -webkit-animation: fadeIn 3s ease 0s 1 normal;
+    }
+    .list2 {
+      font-size: 23px;
+      color: white;
+      text-shadow: 0 0 9px rgba(0,0,0,0.4);
+      font-family: serif;
+      width: 600px;
+      margin-left: 90px;
+      margin-bottom: 10px;
+      position: relative;animation: fadeIn 2s ease 0s 1 normal;
+      -webkit-animation: fadeIn 3s ease 0s 1 normal;
+    }
+  }
+}
