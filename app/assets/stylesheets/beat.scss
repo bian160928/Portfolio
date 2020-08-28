@@ -41,4 +41,33 @@
       }
     }
   }
+  .contents {
+    position: absolute;
+    left: 320px;
+    top: 200px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    &__list {
+      color: white;
+      font-size: 23px;
+      font-family: serif;
+      text-shadow: 0 0 9px rgba(0,0,0,0.4);
+    }
+    .sentences {
+      font-size: 16px;
+      color: white;
+      margin-left: 35px;
+      font-family: serif;
+      text-shadow: 0 0 9px rgba(0,0,0,0.4);
+      width: 500px;
+      margin-bottom: 15px;
+      transition: all  0.1s ease;
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.5);
+        font-size: 18px;
+        width: 570px;
+      }
+    }
+  }
 }
