@@ -13,4 +13,7 @@ class TopsController < ApplicationController
 
   def access
   end
+  
+  def git
+  end
 end
