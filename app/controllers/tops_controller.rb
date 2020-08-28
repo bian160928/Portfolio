@@ -7,4 +7,7 @@ class TopsController < ApplicationController
 
   def peace
   end
+
+  def profile
+  end
 end

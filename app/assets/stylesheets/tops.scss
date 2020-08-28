@@ -21,6 +21,8 @@
         font-size: 55px;
         font-family: serif;
         letter-spacing: 10px;
+        position: relative;animation: fadeIn 2s ease 0s 1 normal;
+        -webkit-animation: fadeIn 2s ease 0s 1 normal;
       }
       .sub {
         font-size: 20px;
@@ -29,6 +31,8 @@
         margin-top: 30px;
         font-family: serif;
         text-align: center;
+        position: relative;animation: fadeIn 2s ease 0s 1 normal;
+        -webkit-animation: fadeIn 2s ease 0s 1 normal;
       }
     }
   }
@@ -79,7 +83,7 @@
       transition: all  0.3s ease;
       &:hover {
         background-color: rgba(0, 0, 255, 0.3);
-        padding: 2px 4px;
+        padding: 3px 6px;
       }
     }
     .make-peace {
@@ -94,5 +98,14 @@
         padding: 2px; 
       }
     }
+  }
+  @keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
   }
 }
