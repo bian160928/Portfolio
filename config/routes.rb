@@ -11,5 +11,8 @@ Rails.application.routes.draw do
     collection do
       get 'profile'
     end
+    collection do
+      get 'access'
+    end
   end
 end
