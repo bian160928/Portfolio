@@ -2,6 +2,7 @@
   background-image: url("sea.jpg");
   background-size: cover;
   min-height: 100vh;
+  position: relative;
   .access-title {
     position: absolute;
     right: 60px;
@@ -18,5 +19,59 @@
       position: relative;animation: fadeIn 2s ease 0s 1 normal;
       -webkit-animation: fadeIn 2s ease 0s 1 normal;
     }
+  }
+  .contents-top {
+    position: absolute;
+    top: 70px;
+    left: 570px;
+    .center {
+      width: 580px;
+      height: 380px;
+      opacity: 0.9;
+      position: relative;animation: fadeIn2 2s ease 0s 1 normal;
+      -webkit-animation: fadeIn2 2s ease 0s 1 normal;
+      transition: all  0.3s ease;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+  .contents-bottom {
+    position: absolute;
+    top: 500px;
+    left: 450px;
+    display: flex;
+    .left {
+      width: 320px;
+      height: 430px;
+      opacity: 0.9;
+      position: relative;animation: fadeIn2 2s ease 0s 1 normal;
+      -webkit-animation: fadeIn2 2s ease 0s 1 normal;
+      transition: all  0.3s ease;
+      &:hover {
+        opacity: 1;
+      }
+    }
+    .right {
+      width: 320px;
+      height: 430px;
+      opacity: 0.9;
+      margin-left: 90px;
+      position: relative;animation: fadeIn2 2s ease 0s 1 normal;
+      -webkit-animation: fadeIn2 2s ease 0s 1 normal;
+      transition: all  0.3s ease;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+  @keyframes fadeIn2 {
+    0% {opacity: 0}
+    100% {opacity: 0.9}
+  }
+
+  @-webkit-keyframes fadeIn2 {
+    0% {opacity: 0}
+    100% {opacity: 0.9}
   }
 }
