@@ -14,5 +14,8 @@ Rails.application.routes.draw do
     collection do
       get 'access'
     end
+    collection do
+      get 'git'
+    end
   end
 end
