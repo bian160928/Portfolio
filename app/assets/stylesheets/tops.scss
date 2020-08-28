@@ -79,7 +79,7 @@
       transition: all  0.3s ease;
       &:hover {
         background-color: rgba(0, 0, 255, 0.3);
-        padding: 4px;
+        padding: 2px 4px;
       }
     }
     .make-peace {
@@ -91,8 +91,7 @@
       transition: all  0.3s ease;
       &:hover {
         background-color: rgba(255,238,1,0.4);
-        padding-left: 2px;
-        padding-right: 2px;
+        padding: 2px; 
       }
     }
   }

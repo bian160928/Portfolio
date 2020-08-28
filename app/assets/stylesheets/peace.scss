@@ -41,4 +41,25 @@
       }
     }
   }
+  .contents {
+    position: absolute;
+    left: 320px;
+    top: 100px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    &__list {
+      color: white;
+      font-size: 23px;
+      font-family: serif;
+      text-shadow: 0 0 9px rgba(0,0,0,0.4);
+    }
+    .sentences {
+      font-size: 16px;
+      color: white;
+      margin-left: 35px;
+      text-shadow: 0 0 9px rgba(0,0,0,0.4);
+      font-family: serif;
+    }
+  }
 }
