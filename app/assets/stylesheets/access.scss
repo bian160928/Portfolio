@@ -1,5 +1,5 @@
 .header-access {
-  background-image: url("sea.jpg");
+  background-image: url("carnight.jpg");
   background-size: cover;
   min-height: 100vh;
   position: relative;
@@ -23,23 +23,41 @@
   .contents-top {
     position: absolute;
     top: 70px;
-    left: 570px;
+    left: 535px;
     .center {
       width: 580px;
       height: 380px;
       opacity: 0.9;
       position: relative;animation: fadeIn2 2s ease 0s 1 normal;
       -webkit-animation: fadeIn2 2s ease 0s 1 normal;
-      transition: all  0.3s ease;
+      transition: all  1s ease;
       &:hover {
         opacity: 1;
+      }
+      .fab {
+        color: white;
+        font-size: 35px;
+        position: absolute;
+        top: 168px;
+        left: 200px;
+        text-shadow: 0 0 9px rgba(0,0,0,0.9);
+      }
+      .git {
+        text-decoration: none;
+        position: absolute;
+        top: 160px;
+        left: 240px;
+        color: white;
+        font-size: 35px;
+        font-family: serif;
+        text-shadow: 0 0 9px rgba(0,0,0,0.9);
       }
     }
   }
   .contents-bottom {
     position: absolute;
     top: 500px;
-    left: 450px;
+    left: 420px;
     display: flex;
     .left {
       width: 320px;
@@ -47,9 +65,29 @@
       opacity: 0.9;
       position: relative;animation: fadeIn2 2s ease 0s 1 normal;
       -webkit-animation: fadeIn2 2s ease 0s 1 normal;
-      transition: all  0.3s ease;
+      transition: all  1s ease;
       &:hover {
         opacity: 1;
+      }
+      .fab {
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        top: 195px;
+        left: 85px;
+        text-shadow: 0 0 9px rgba(0,0,0,0.4);
+        opacity: 0.8;
+      }
+      .twitter {
+        position: absolute;
+        top: 190px;
+        left: 120px;
+        color: white;
+        text-decoration: none;
+        font-size: 30px;
+        text-shadow: 0 0 9px rgba(0,0,0,0.4);
+        font-family: serif;
+        opacity: 0.8;
       }
     }
     .right {
@@ -59,9 +97,29 @@
       margin-left: 90px;
       position: relative;animation: fadeIn2 2s ease 0s 1 normal;
       -webkit-animation: fadeIn2 2s ease 0s 1 normal;
-      transition: all  0.3s ease;
+      transition: all  1s ease;
       &:hover {
         opacity: 1;
+      }
+      .fas {
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        top: 195px;
+        left: 191px;
+        text-shadow: 0 0 9px rgba(0,0,0,0.9);
+        opacity: 0.8;
+      }
+      .blog {
+        position: absolute;
+        top: 190px;
+        left: 225px;
+        color: white;
+        text-decoration: none;
+        font-size: 30px;
+        text-shadow: 0 0 9px rgba(0,0,0,0.9);
+        font-family: serif;
+        opacity: 0.7;
       }
     }
   }

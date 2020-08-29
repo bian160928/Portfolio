@@ -6,11 +6,17 @@
       .center
         = link_to "https://github.com/bian160928", target: :_blank do
           = image_tag "github.png", class: "center"
+          %i.fab.fa-github
+          .git GitHub
     .contents-bottom
       .left
         = link_to "https://twitter.com/home", target: :_blank do
           = image_tag "twitter.png", class: "left"
+          %i.fab.fa-twitter
+          .twitter Twitter
       .right
         = link_to "https://biankobayashi.hatenablog.com/", target: :_blank do
           = image_tag "hatena.png", class: "right"
+          %i.fas.fa-blog
+          .blog Blog
   = render partial: 'side'
