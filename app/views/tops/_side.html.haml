@@ -1,12 +1,12 @@
 .header-left
-  %i.fab.fa-wikipedia-w
+  %i.far.fa-user
   = link_to root_path, class: "prof" do
     Home
   = link_to profile_tops_path, class: "prof" do
     Profile
   = link_to access_tops_path, class: "prof" do
     Contact
-  = link_to "biankobayashi@gmail.com", class: "prof" do
+  = mail_to "biankobayashi@gmail.com", target: :_blank, class: "prof" do
     Gmail
   .app -Made Application-
   = link_to beat_tops_path, class: "make-beat" do
