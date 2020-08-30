@@ -28,8 +28,8 @@
       width: 580px;
       height: 380px;
       opacity: 0.9;
-      position: relative;animation: fadeIn2 2s ease 0s 1 normal;
-      -webkit-animation: fadeIn2 2s ease 0s 1 normal;
+      position: relative;animation: fadeIn2 2.5s ease 0s 1 normal;
+      -webkit-animation: fadeIn2 2.5s ease 0s 1 normal;
       transition: all  1s ease;
       &:hover {
         opacity: 1;
@@ -63,8 +63,8 @@
       width: 320px;
       height: 430px;
       opacity: 0.9;
-      position: relative;animation: fadeIn2 2s ease 0s 1 normal;
-      -webkit-animation: fadeIn2 2s ease 0s 1 normal;
+      position: relative;animation: fadeIn2 2.5s ease 0s 1 normal;
+      -webkit-animation: fadeIn2 2.5s ease 0s 1 normal;
       transition: all  1s ease;
       &:hover {
         opacity: 1;
@@ -95,8 +95,8 @@
       height: 430px;
       opacity: 0.9;
       margin-left: 90px;
-      position: relative;animation: fadeIn2 2s ease 0s 1 normal;
-      -webkit-animation: fadeIn2 2s ease 0s 1 normal;
+      position: relative;animation: fadeIn2 2.5s ease 0s 1 normal;
+      -webkit-animation: fadeIn2 2.5s ease 0s 1 normal;
       transition: all  1s ease;
       &:hover {
         opacity: 1;
@@ -106,14 +106,14 @@
         font-size: 30px;
         position: absolute;
         top: 195px;
-        left: 191px;
+        left: 196px;
         text-shadow: 0 0 9px rgba(0,0,0,0.9);
         opacity: 0.8;
       }
       .blog {
         position: absolute;
         top: 190px;
-        left: 225px;
+        left: 230px;
         color: white;
         text-decoration: none;
         font-size: 30px;
