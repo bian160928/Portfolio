@@ -1,24 +1,10 @@
-# README
+# Portfolio
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### トップページ
+![トップページ](https://i.gyazo.com/a9e9d8691a43f3ad797856e107e4854c.jpg)
 
-Things you may want to cover:
+### 概要
+- 私が作成したアプリケーションやWebサイトを見やすくする為のホームページです。
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### URL
+#####  https://biankobayashi.herokuapp.com/
