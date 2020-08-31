@@ -2,6 +2,9 @@
   background-image: url("flower.jpeg");
   background-size: cover;
   min-height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   position: relative;
   .beat-title {
     position: absolute;

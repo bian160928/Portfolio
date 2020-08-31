@@ -1,7 +1,11 @@
 .header-prof {
-  background-image: url("carnight.jpg");
+  background-image: url("car.jpg");
   background-size: cover;
   min-height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
   .prof-title {
     position: absolute;
     right: 60px;
