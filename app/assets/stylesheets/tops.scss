@@ -5,12 +5,15 @@
 .wrapper {
   height: 100vh;
   width: 100%;
-  position: relative;
   .header {
     min-height: 100vh;
     background-size: cover;
     position: relative;
-    background-image: url("carnight.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("car.jpg");
+    display: flex;
     .header-right {
       position: absolute;
       right: 60px;
@@ -37,7 +40,7 @@
     }
   }
   .header-left {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 260px;
