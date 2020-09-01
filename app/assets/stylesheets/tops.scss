@@ -3,8 +3,8 @@
 }
 
 .wrapper {
-  min-height: 1000px;
-  min-width: 1680px;
+  min-height: 100vh;
+  width: 100%;
   transform-origin: 0% 0%;
   position: relative;
   .header {
@@ -24,14 +24,14 @@
       .title {
         color: white;
         text-shadow: 0 0 9px rgba(0,0,0,0.4);
-        font-size: 3.4rem;
+        font-size: 55px;
         font-family: serif;
         letter-spacing: 10px;
         position: relative;animation: fadeIn 2s ease 0s 1 normal;
         -webkit-animation: fadeIn 2s ease 0s 1 normal;
       }
       .sub {
-        font-size: 1.2rem;
+        font-size: 20px;
         color: white;
         text-shadow: 0 0 9px rgba(0,0,0,0.4);
         margin-top: 30px;
@@ -46,14 +46,14 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 250px;
+    width: 260px;
     min-height: 100vh;
     border-right: 1px solid whitesmoke;
     display: flex;
     align-items: center;
     flex-direction: column;
     .far {
-      font-size: 7rem;
+      font-size: 120px;
       padding-top: 40px;
       color: white;
       margin-bottom: 180px;
@@ -61,7 +61,7 @@
       opacity: 0.7;
     }
     .prof {
-      font-size: 1.2rem;
+      font-size: 20px;
       color: white;
       text-shadow: 0 0 5px rgba(0,0,0,0.4);
       font-family: serif;
@@ -76,7 +76,7 @@
     }
     .app {
       padding-top: 180px;
-      font-size: 1.4rem;
+      font-size: 20px;
       color: white;
       padding-bottom: 10px;
       text-shadow: 0 0 5px rgba(0,0,0,0.4);
@@ -84,7 +84,7 @@
     }
     .make-beat {
       color: white;
-      font-size: 1rem;
+      font-size: 15px;
       text-shadow: 0 0 5px rgba(0,0,0,0.4);
       font-family: serif;
       text-decoration: none;
@@ -96,7 +96,7 @@
     }
     .make-peace {
       color: white;
-      font-size: 1rem;
+      font-size: 15px;
       text-shadow: 0 0 5px rgba(0,0,0,0.4);
       font-family: serif;
       text-decoration: none;
