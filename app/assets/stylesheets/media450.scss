@@ -1,0 +1,484 @@
+$breakpoint: 450px;
+@mixin mq {
+  @media screen and (max-width: $breakpoint) {
+    @content;
+  }
+}
+@include mq {
+  .wrapper {
+    min-height: 100vh;
+    width: 100%;
+    transform-origin: 0% 0%;
+    position: relative;
+    .header {
+      min-height: 100vh;
+      min-width: 100%;
+      background-size: cover;
+      position: relative;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-image: url("car.jpg");
+      display: flex;
+      .header-right {
+        position: absolute;
+        right: 20px;
+        top: 120px;
+        .title {
+          color: white;
+          text-shadow: 0 0 9px rgba(0,0,0,0.4);
+          font-size: 25px;
+          font-family: serif;
+          letter-spacing: 10px;
+          position: relative;animation: fadeIn 2s ease 0s 1 normal;
+          -webkit-animation: fadeIn 2s ease 0s 1 normal;
+        }
+        .sub {
+          font-size: 13px;
+          color: white;
+          text-shadow: 0 0 9px rgba(0,0,0,0.4);
+          padding-top: 10px;
+          font-family: serif;
+          text-align: center;
+          position: relative;animation: fadeIn 2s ease 0s 1 normal;
+          -webkit-animation: fadeIn 2s ease 0s 1 normal;
+        }
+      }
+    }
+    .header-left {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 120px;
+      min-height: 100vh;
+      border-right: 1px solid whitesmoke;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      .far {
+        font-size: 60px;
+        padding-top: 40px;
+        color: white;
+        margin-bottom: 120px;
+        text-shadow: 0 0 5px rgba(0,0,0,0.6);
+        opacity: 0.7;
+      }
+      .prof {
+        font-size: 15px;
+        color: white;
+        text-shadow: 0 0 5px rgba(0,0,0,0.4);
+        font-family: serif;
+        text-decoration: none;
+        transition: all  0.3s ease;
+        padding-left: 2px;
+        padding-right: 2px;
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.4);
+          padding: 2px;
+        }
+      }
+      .app {
+        padding-top: 80px;
+        font-size: 10px;
+        color: white;
+        padding-bottom: 10px;
+        text-shadow: 0 0 5px rgba(0,0,0,0.4);
+        font-family: serif;
+      }
+      .make-beat {
+        color: white;
+        font-size: 12px;
+        text-shadow: 0 0 5px rgba(0,0,0,0.4);
+        font-family: serif;
+        text-decoration: none;
+        transition: all  0.3s ease;
+        &:hover {
+          background-color: rgba(0, 0, 255, 0.3);
+          padding: 3px 6px;
+        }
+      }
+      .make-peace {
+        color: white;
+        font-size: 12px;
+        text-shadow: 0 0 5px rgba(0,0,0,0.4);
+        font-family: serif;
+        text-decoration: none;
+        transition: all  0.3s ease;
+        &:hover {
+          background-color: rgba(255,238,1,0.4);
+          padding: 2px; 
+        }
+      }
+    }
+    @keyframes fadeIn {
+      0% {opacity: 0}
+      100% {opacity: 1}
+    }
+  
+    @-webkit-keyframes fadeIn {
+      0% {opacity: 0}
+      100% {opacity: 1}
+    }
+  }
+  .header-prof {
+    background-image: url("car.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    .prof-title {
+      position: absolute;
+      right: 70px;
+      top: 10px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      .title {
+        color: white;
+        text-shadow: 0 0 9px rgba(0,0,0,0.9);
+        font-size: 25px;
+        font-family: serif;
+        letter-spacing: 10px;
+        position: relative;animation: fadeIn 2s ease 0s 1 normal;
+        -webkit-animation: fadeIn 2s ease 0s 1 normal;
+      }
+    }
+    .contents {
+      position: absolute;
+      top: 85px;
+      left: 135px;
+      .list {
+        font-size: 10px;
+        color: white;
+        text-shadow: 0 0 9px rgba(0,0,0,0.9);
+        font-family: serif;
+        padding-bottom: 10px;
+        position: relative;animation: fadeIn 2s ease 0s 1 normal;
+        -webkit-animation: fadeIn 3s ease 0s 1 normal;
+      }
+      .list2 {
+        font-size: 10px;
+        color: white;
+        text-shadow: 0 0 9px rgba(0,0,0,0.9);
+        font-family: serif;
+        width: 200px;
+        padding-left: 40px;
+        padding-bottom: 10px;
+        position: relative;animation: fadeIn 2s ease 0s 1 normal;
+        -webkit-animation: fadeIn 3s ease 0s 1 normal;
+      }
+    }
+  }
+  .header-access {
+    background-image: url("car.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    .access-title {
+      position: absolute;
+      right: 70px;
+      top: 10px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      .title {
+        color: white;
+        text-shadow: 0 0 9px rgba(0,0,0,0.4);
+        font-size: 25px;
+        font-family: serif;
+        letter-spacing: 10px;
+        position: relative;animation: fadeIn 2s ease 0s 1 normal;
+        -webkit-animation: fadeIn 2s ease 0s 1 normal;
+      }
+    }
+    .contents-top {
+      position: absolute;
+      top: 70px;
+      left: 160px;
+      .center {
+        width: 180px;
+        height: 120px;
+        opacity: 0.9;
+        position: relative;animation: fadeIn2 2.5s ease 0s 1 normal;
+        -webkit-animation: fadeIn2 2.5s ease 0s 1 normal;
+        transition: all  1s ease;
+        &:hover {
+          opacity: 1;
+        }
+        .fab {
+          color: white;
+          font-size: 25px;
+          position: absolute;
+          top: 50px;
+          left: 40px;
+          text-shadow: 0 0 9px rgba(0,0,0,0.9);
+        }
+        .git {
+          text-decoration: none;
+          position: absolute;
+          top: 45px;
+          left: 70px;
+          color: white;
+          font-size: 25px;
+          font-family: serif;
+          text-shadow: 0 0 9px rgba(0,0,0,0.9);
+        }
+      }
+    }
+    .contents-bottom {
+      position: absolute;
+      top: 230px;
+      left: 200px;
+      display: flex;
+      flex-direction: column;
+      .left {
+        width: 100px;
+        height: 150px;
+        opacity: 0.9;
+        position: relative;animation: fadeIn2 2.5s ease 0s 1 normal;
+        -webkit-animation: fadeIn2 2.5s ease 0s 1 normal;
+        transition: all  1s ease;
+        &:hover {
+          opacity: 1;
+        }
+        .fab {
+          color: white;
+          font-size: 20px;
+          position: absolute;
+          top: 65px;
+          left: 6px;
+          text-shadow: 0 0 9px rgba(0,0,0,0.4);
+          opacity: 0.8;
+        }
+        .twitter {
+          position: absolute;
+          top: 60px;
+          left: 30px;
+          color: white;
+          text-decoration: none;
+          font-size: 20px;
+          text-shadow: 0 0 9px rgba(0,0,0,0.4);
+          font-family: serif;
+          opacity: 0.8;
+        }
+      }
+      .right {
+        width: 100px;
+        height: 150px;
+        opacity: 0.9;
+        margin: 0;
+        padding-top: 20px;
+        position: relative;animation: fadeIn2 2.5s ease 0s 1 normal;
+        -webkit-animation: fadeIn2 2.5s ease 0s 1 normal;
+        transition: all  1s ease;
+        &:hover {
+          opacity: 1;
+        }
+        .fas {
+          color: white;
+          font-size: 20px;
+          position: absolute;
+          top: 55px;
+          left: 15px;
+          text-shadow: 0 0 9px rgba(0,0,0,0.9);
+          opacity: 0.8;
+        }
+        .blog {
+          position: absolute;
+          top: 50px;
+          left: 45px;
+          color: white;
+          text-decoration: none;
+          font-size: 20px;
+          text-shadow: 0 0 9px rgba(0,0,0,0.9);
+          font-family: serif;
+          opacity: 0.7;
+        }
+      }
+    }
+    @keyframes fadeIn2 {
+      0% {opacity: 0}
+      100% {opacity: 0.9}
+    }
+  
+    @-webkit-keyframes fadeIn2 {
+      0% {opacity: 0}
+      100% {opacity: 0.9}
+    }
+  }
+  .header-peace {
+    background-image: url("adult.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    .peace-title {
+      position: absolute;
+      right: 60px;
+      top: 260px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      display: none;
+      .title {
+        color: white;
+        text-shadow: 0 0 9px rgba(0,0,0,0.4);
+        font-size: 45px;
+        font-family: serif;
+        letter-spacing: 10px;
+        background-color: rgba(255,238,1,0.4);
+        padding-left: 3px;
+        position: relative;animation: fadeIn 2s ease 0s 1 normal;
+        -webkit-animation: fadeIn 2s ease 0s 1 normal;
+      }
+      .sub {
+        font-size: 18px;
+        color: white;
+        text-shadow: 0 0 9px rgba(0,0,0,0.4);
+        padding-top: 30px;
+        font-family: serif;
+        text-align: center;
+        position: relative;animation: fadeIn 2s ease 0s 1 normal;
+        -webkit-animation: fadeIn 2s ease 0s 1 normal;
+      }
+      .url {
+        color: white;
+        text-shadow: 0 0 9px rgba(0,0,0,0.4);
+        font-size: 18px;
+        width: 280px;
+        font-family: serif;
+        text-align: center;
+        display: block;
+        position: relative;animation: fadeIn 2s ease 0s 1 normal;
+        -webkit-animation: fadeIn 2s ease 0s 1 normal;
+        transition: all  0.3s ease;
+        &:hover {
+          background-color: rgba(150, 147, 147, 0.2);
+        }
+      }
+    }
+    .contents {
+      position: absolute;
+      left: 140px;
+      top: 42px;
+      background-color: rgba(255, 238, 0, 0.2);
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      &__list {
+        color: white;
+        font-size: 12px;
+        font-family: serif;
+        text-shadow: 0 0 9px rgba(0,0,0,0.7);
+        position: relative;animation: fadeIn 2s ease 0s 1 normal;
+        -webkit-animation: fadeIn 2s ease 0s 1 normal;
+      }
+      .sentences {
+        font-size: 8px;
+        color: white;
+        padding-left: 15px;
+        text-shadow: 0 0 9px rgba(0,0,0,0.7);
+        font-family: serif;
+        padding-bottom: 8px;
+        width: 250px;
+        position: relative;animation: fadeIn 3s ease 0s 1 normal;
+        -webkit-animation: fadeIn 3s ease 0s 1 normal;
+        transition: all  0.1s ease;
+      }
+    }
+  }
+  .header-beat {
+    background-image: url("flower.jpeg");
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    .beat-title {
+      position: absolute;
+      right: 60px;
+      top: 260px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      display: none;
+      .title {
+        color: white;
+        text-shadow: 0 0 9px rgba(0,0,0,0.4);
+        font-size: 35px;
+        font-family: serif;
+        letter-spacing: 10px;
+        background-color: rgba(0, 0, 255, 0.3);
+        padding-left: 3px;
+        position: relative;animation: fadeIn 2s ease 0s 1 normal;
+        -webkit-animation: fadeIn 2s ease 0s 1 normal;
+      }
+      .sub {
+        font-size: 18px;
+        color: white;
+        text-shadow: 0 0 9px rgba(0,0,0,0.4);
+        padding-top: 30px;
+        font-family: serif;
+        text-align: center;
+        position: relative;animation: fadeIn 2s ease 0s 1 normal;
+        -webkit-animation: fadeIn 2s ease 0s 1 normal;
+      }
+      .url {
+        color: white;
+        text-shadow: 0 0 9px rgba(0,0,0,0.4);
+        width: 280px;
+        font-size: 18px;
+        font-family: serif;
+        text-align: center;
+        display: block;
+        position: relative;animation: fadeIn 2s ease 0s 1 normal;
+        -webkit-animation: fadeIn 2s ease 0s 1 normal;
+        transition: all  0.3s ease;
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.2);
+        }
+      }
+    }
+    .contents {
+      position: absolute;
+      left: 140px;
+      top: 42px;
+      background-color: rgba(0,0,0,0.4);
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      &__list {
+        color: white;
+        font-size: 12px;
+        font-family: serif;
+        text-shadow: 0 0 9px rgba(0,0,0,0.9);
+        position: relative;animation: fadeIn 2s ease 0s 1 normal;
+        -webkit-animation: fadeIn 2s ease 0s 1 normal;
+      }
+      .sentences {
+        font-size: 8px;
+        color: white;
+        padding-left: 15px;
+        font-family: serif;
+        text-shadow: 0 0 9px rgba(0,0,0,0.9);
+        width: 250px;
+        padding-bottom: 8px;
+        position: relative;animation: fadeIn 3s ease 0s 1 normal;
+        -webkit-animation: fadeIn 3s ease 0s 1 normal;
+        transition: all  0.1s ease;
+      }
+    }
+  }  
+}
