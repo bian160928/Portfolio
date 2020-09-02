@@ -1,4 +1,4 @@
-$breakpoint: 1500px;
+$breakpoint: 1650px;
 @mixin mq {
   @media screen and (max-width: $breakpoint) {
     @content;
@@ -200,11 +200,11 @@ $breakpoint: 1500px;
     }
     .contents-top {
       position: absolute;
-      top: 100px;
+      top: 90px;
       left: 400px;
       .center {
-        width: 410px;
-        height: 250px;
+        width: 480px;
+        height: 320px;
         opacity: 0.9;
         position: relative;animation: fadeIn2 2.5s ease 0s 1 normal;
         -webkit-animation: fadeIn2 2.5s ease 0s 1 normal;
@@ -216,15 +216,15 @@ $breakpoint: 1500px;
           color: white;
           font-size: 35px;
           position: absolute;
-          top: 120px;
-          left: 130px;
+          top: 150px;
+          left: 160px;
           text-shadow: 0 0 9px rgba(0,0,0,0.9);
         }
         .git {
           text-decoration: none;
           position: absolute;
-          top: 113px;
-          left: 175px;
+          top: 143px;
+          left: 200px;
           color: white;
           font-size: 35px;
           font-family: serif;
@@ -234,12 +234,12 @@ $breakpoint: 1500px;
     }
     .contents-bottom {
       position: absolute;
-      top: 400px;
+      top: 450px;
       left: 320px;
       display: flex;
       .left {
-        width: 210px;
-        height: 300px;
+        width: 280px;
+        height: 370px;
         opacity: 0.9;
         position: relative;animation: fadeIn2 2.5s ease 0s 1 normal;
         -webkit-animation: fadeIn2 2.5s ease 0s 1 normal;
@@ -251,15 +251,15 @@ $breakpoint: 1500px;
           color: white;
           font-size: 30px;
           position: absolute;
-          top: 135px;
-          left: 40px;
+          top: 155px;
+          left: 70px;
           text-shadow: 0 0 9px rgba(0,0,0,0.4);
           opacity: 0.8;
         }
         .twitter {
           position: absolute;
-          top: 130px;
-          left: 80px;
+          top: 150px;
+          left: 110px;
           color: white;
           text-decoration: none;
           font-size: 30px;
@@ -269,8 +269,8 @@ $breakpoint: 1500px;
         }
       }
       .right {
-        width: 210px;
-        height: 300px;
+        width: 280px;
+        height: 370px;
         opacity: 0.9;
         margin-left: 75px;
         position: relative;animation: fadeIn2 2.5s ease 0s 1 normal;
@@ -283,15 +283,15 @@ $breakpoint: 1500px;
           color: white;
           font-size: 30px;
           position: absolute;
-          top: 135px;
-          left: 125px;
+          top: 155px;
+          left: 165px;
           text-shadow: 0 0 9px rgba(0,0,0,0.9);
           opacity: 0.8;
         }
         .blog {
           position: absolute;
-          top: 130px;
-          left: 165px;
+          top: 150px;
+          left: 200px;
           color: white;
           text-decoration: none;
           font-size: 30px;
@@ -366,21 +366,21 @@ $breakpoint: 1500px;
     }
     .contents {
       position: absolute;
-      left: 240px;
-      top: 80px;
+      left: 250px;
+      top: 30px;
       display: flex;
       align-items: flex-start;
       flex-direction: column;
       &__list {
         color: white;
-        font-size: 18px;
+        font-size: 20px;
         font-family: serif;
         text-shadow: 0 0 9px rgba(0,0,0,0.8);
         position: relative;animation: fadeIn 2s ease 0s 1 normal;
         -webkit-animation: fadeIn 2s ease 0s 1 normal;
       }
       .sentences {
-        font-size: 15px;
+        font-size: 17px;
         color: white;
         padding-left: 35px;
         text-shadow: 0 0 9px rgba(0,0,0,0.8);
@@ -392,7 +392,7 @@ $breakpoint: 1500px;
         transition: all  0.1s ease;
         &:hover {
           background-color: rgba(0, 0, 0, 0.5);
-          font-size: 18px;
+          font-size: 20px;
           width: 550px;
           padding: 5px;
         }
@@ -454,21 +454,21 @@ $breakpoint: 1500px;
     }
     .contents {
       position: absolute;
-      left: 240px;
-      top: 80px;
+      left: 250px;
+      top: 60px;
       display: flex;
       align-items: flex-start;
       flex-direction: column;
       &__list {
         color: white;
-        font-size: 18px;
+        font-size: 20px;
         font-family: serif;
         text-shadow: 0 0 9px rgba(0,0,0,0.9);
         position: relative;animation: fadeIn 2s ease 0s 1 normal;
         -webkit-animation: fadeIn 2s ease 0s 1 normal;
       }
       .sentences {
-        font-size: 15px;
+        font-size: 17px;
         color: white;
         padding-left: 35px;
         font-family: serif;
@@ -480,7 +480,7 @@ $breakpoint: 1500px;
         transition: all  0.1s ease;
         &:hover {
           background-color: rgba(0, 0, 0, 0.7);
-          font-size: 18px;
+          font-size: 20px;
           width: 550px;
           padding: 5px;
         }
