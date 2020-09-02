@@ -1,4 +1,4 @@
-$breakpoint: 450px;
+$breakpoint: 1500px;
 @mixin mq {
   @media screen and (max-width: $breakpoint) {
     @content;
@@ -22,22 +22,22 @@ $breakpoint: 450px;
       display: flex;
       .header-right {
         position: absolute;
-        right: 30px;
-        top: 120px;
+        right: 60px;
+        top: 420px;
         .title {
           color: white;
           text-shadow: 0 0 9px rgba(0,0,0,0.4);
-          font-size: 25px;
+          font-size: 55px;
           font-family: serif;
           letter-spacing: 10px;
           position: relative;animation: fadeIn 2s ease 0s 1 normal;
           -webkit-animation: fadeIn 2s ease 0s 1 normal;
         }
         .sub {
-          font-size: 12px;
+          font-size: 20px;
           color: white;
           text-shadow: 0 0 9px rgba(0,0,0,0.4);
-          padding-top: 5px;
+          padding-top: 30px;
           font-family: serif;
           text-align: center;
           position: relative;animation: fadeIn 2s ease 0s 1 normal;
@@ -49,22 +49,22 @@ $breakpoint: 450px;
       position: absolute;
       top: 0;
       left: 0;
-      width: 120px;
+      width: 185px;
       min-height: 100vh;
       border-right: 1px solid whitesmoke;
       display: flex;
       align-items: center;
       flex-direction: column;
       .far {
-        font-size: 60px;
+        font-size: 90px;
         padding-top: 40px;
         color: white;
-        margin-bottom: 120px;
+        margin-bottom: 180px;
         text-shadow: 0 0 5px rgba(0,0,0,0.6);
         opacity: 0.7;
       }
       .prof {
-        font-size: 15px;
+        font-size: 17px;
         color: white;
         text-shadow: 0 0 5px rgba(0,0,0,0.8);
         font-family: serif;
@@ -78,8 +78,8 @@ $breakpoint: 450px;
         }
       }
       .app {
-        padding-top: 80px;
-        font-size: 10px;
+        padding-top: 180px;
+        font-size: 18px;
         color: white;
         padding-bottom: 10px;
         text-shadow: 0 0 5px rgba(0,0,0,0.8);
@@ -87,7 +87,7 @@ $breakpoint: 450px;
       }
       .make-beat {
         color: white;
-        font-size: 12px;
+        font-size: 14px;
         text-shadow: 0 0 5px rgba(0,0,0,0.8);
         font-family: serif;
         text-decoration: none;
@@ -99,7 +99,7 @@ $breakpoint: 450px;
       }
       .make-peace {
         color: white;
-        font-size: 12px;
+        font-size: 15px;
         text-shadow: 0 0 5px rgba(0,0,0,0.8);
         font-family: serif;
         text-decoration: none;
@@ -131,15 +131,15 @@ $breakpoint: 450px;
     position: relative;
     .prof-title {
       position: absolute;
-      right: 70px;
-      top: 10px;
+      right: 60px;
+      top: 420px;
       display: flex;
       align-items: center;
       flex-direction: column;
       .title {
         color: white;
         text-shadow: 0 0 9px rgba(0,0,0,0.9);
-        font-size: 25px;
+        font-size: 55px;
         font-family: serif;
         letter-spacing: 10px;
         position: relative;animation: fadeIn 2s ease 0s 1 normal;
@@ -148,10 +148,10 @@ $breakpoint: 450px;
     }
     .contents {
       position: absolute;
-      top: 85px;
-      left: 135px;
+      top: 100px;
+      left: 310px;
       .list {
-        font-size: 11px;
+        font-size: 23px;
         color: white;
         text-shadow: 0 0 9px rgba(0,0,0,0.9);
         font-family: serif;
@@ -160,12 +160,12 @@ $breakpoint: 450px;
         -webkit-animation: fadeIn 3s ease 0s 1 normal;
       }
       .list2 {
-        font-size: 11px;
+        font-size: 23px;
         color: white;
         text-shadow: 0 0 9px rgba(0,0,0,0.9);
         font-family: serif;
-        width: 200px;
-        padding-left: 40px;
+        width: 600px;
+        padding-left: 90px;
         padding-bottom: 10px;
         position: relative;animation: fadeIn 2s ease 0s 1 normal;
         -webkit-animation: fadeIn 3s ease 0s 1 normal;
@@ -183,15 +183,15 @@ $breakpoint: 450px;
     position: relative;
     .access-title {
       position: absolute;
-      right: 70px;
-      top: 10px;
+      right: 60px;
+      top: 420px;
       display: flex;
       align-items: center;
       flex-direction: column;
       .title {
         color: white;
         text-shadow: 0 0 9px rgba(0,0,0,0.4);
-        font-size: 25px;
+        font-size: 55px;
         font-family: serif;
         letter-spacing: 10px;
         position: relative;animation: fadeIn 2s ease 0s 1 normal;
@@ -200,11 +200,11 @@ $breakpoint: 450px;
     }
     .contents-top {
       position: absolute;
-      top: 70px;
-      left: 160px;
+      top: 100px;
+      left: 400px;
       .center {
-        width: 180px;
-        height: 120px;
+        width: 410px;
+        height: 250px;
         opacity: 0.9;
         position: relative;animation: fadeIn2 2.5s ease 0s 1 normal;
         -webkit-animation: fadeIn2 2.5s ease 0s 1 normal;
@@ -214,19 +214,19 @@ $breakpoint: 450px;
         }
         .fab {
           color: white;
-          font-size: 25px;
+          font-size: 35px;
           position: absolute;
-          top: 50px;
-          left: 40px;
+          top: 120px;
+          left: 130px;
           text-shadow: 0 0 9px rgba(0,0,0,0.9);
         }
         .git {
           text-decoration: none;
           position: absolute;
-          top: 45px;
-          left: 70px;
+          top: 113px;
+          left: 175px;
           color: white;
-          font-size: 25px;
+          font-size: 35px;
           font-family: serif;
           text-shadow: 0 0 9px rgba(0,0,0,0.9);
         }
@@ -234,13 +234,12 @@ $breakpoint: 450px;
     }
     .contents-bottom {
       position: absolute;
-      top: 230px;
-      left: 200px;
+      top: 400px;
+      left: 320px;
       display: flex;
-      flex-direction: column;
       .left {
-        width: 100px;
-        height: 150px;
+        width: 210px;
+        height: 300px;
         opacity: 0.9;
         position: relative;animation: fadeIn2 2.5s ease 0s 1 normal;
         -webkit-animation: fadeIn2 2.5s ease 0s 1 normal;
@@ -250,31 +249,30 @@ $breakpoint: 450px;
         }
         .fab {
           color: white;
-          font-size: 20px;
+          font-size: 30px;
           position: absolute;
-          top: 65px;
-          left: 6px;
+          top: 135px;
+          left: 40px;
           text-shadow: 0 0 9px rgba(0,0,0,0.4);
           opacity: 0.8;
         }
         .twitter {
           position: absolute;
-          top: 60px;
-          left: 30px;
+          top: 130px;
+          left: 80px;
           color: white;
           text-decoration: none;
-          font-size: 20px;
+          font-size: 30px;
           text-shadow: 0 0 9px rgba(0,0,0,0.4);
           font-family: serif;
           opacity: 0.8;
         }
       }
       .right {
-        width: 100px;
-        height: 150px;
+        width: 210px;
+        height: 300px;
         opacity: 0.9;
-        margin: 0;
-        padding-top: 20px;
+        margin-left: 75px;
         position: relative;animation: fadeIn2 2.5s ease 0s 1 normal;
         -webkit-animation: fadeIn2 2.5s ease 0s 1 normal;
         transition: all  1s ease;
@@ -283,20 +281,20 @@ $breakpoint: 450px;
         }
         .fas {
           color: white;
-          font-size: 20px;
+          font-size: 30px;
           position: absolute;
-          top: 85px;
-          left: 15px;
+          top: 135px;
+          left: 125px;
           text-shadow: 0 0 9px rgba(0,0,0,0.9);
           opacity: 0.8;
         }
         .blog {
           position: absolute;
-          top: 80px;
-          left: 45px;
+          top: 130px;
+          left: 165px;
           color: white;
           text-decoration: none;
-          font-size: 20px;
+          font-size: 30px;
           text-shadow: 0 0 9px rgba(0,0,0,0.9);
           font-family: serif;
           opacity: 0.7;
@@ -325,15 +323,14 @@ $breakpoint: 450px;
     .peace-title {
       position: absolute;
       right: 60px;
-      top: 260px;
+      top: 420px;
       display: flex;
       align-items: center;
       flex-direction: column;
-      display: none;
       .title {
         color: white;
         text-shadow: 0 0 9px rgba(0,0,0,0.4);
-        font-size: 45px;
+        font-size: 55px;
         font-family: serif;
         letter-spacing: 10px;
         background-color: rgba(255,238,1,0.4);
@@ -369,35 +366,34 @@ $breakpoint: 450px;
     }
     .contents {
       position: absolute;
-      left: 140px;
-      top: 42px;
-      background-color: rgba(255, 238, 0, 0.2);
+      left: 240px;
+      top: 80px;
       display: flex;
       align-items: flex-start;
       flex-direction: column;
       &__list {
         color: white;
-        font-size: 12px;
+        font-size: 18px;
         font-family: serif;
-        text-shadow: 0 0 9px rgba(0,0,0,0.7);
+        text-shadow: 0 0 9px rgba(0,0,0,0.8);
         position: relative;animation: fadeIn 2s ease 0s 1 normal;
         -webkit-animation: fadeIn 2s ease 0s 1 normal;
       }
       .sentences {
-        font-size: 8px;
+        font-size: 15px;
         color: white;
-        padding-left: 15px;
-        text-shadow: 0 0 9px rgba(0,0,0,0.7);
+        padding-left: 35px;
+        text-shadow: 0 0 9px rgba(0,0,0,0.8);
         font-family: serif;
-        padding-bottom: 8px;
-        width: 250px;
+        padding-bottom: 10px;
+        width: 500px;
         position: relative;animation: fadeIn 3s ease 0s 1 normal;
         -webkit-animation: fadeIn 3s ease 0s 1 normal;
         transition: all  0.1s ease;
         &:hover {
           background-color: rgba(0, 0, 0, 0.5);
-          font-size: 14px;
-          width: 270px;
+          font-size: 18px;
+          width: 550px;
           padding: 5px;
         }
       }
@@ -415,15 +411,14 @@ $breakpoint: 450px;
     .beat-title {
       position: absolute;
       right: 60px;
-      top: 260px;
+      top: 420px;
       display: flex;
       align-items: center;
       flex-direction: column;
-      display: none;
       .title {
         color: white;
         text-shadow: 0 0 9px rgba(0,0,0,0.4);
-        font-size: 35px;
+        font-size: 55px;
         font-family: serif;
         letter-spacing: 10px;
         background-color: rgba(0, 0, 255, 0.3);
@@ -459,38 +454,37 @@ $breakpoint: 450px;
     }
     .contents {
       position: absolute;
-      left: 140px;
-      top: 42px;
-      background-color: rgba(0,0,0,0.4);
+      left: 240px;
+      top: 80px;
       display: flex;
       align-items: flex-start;
       flex-direction: column;
       &__list {
         color: white;
-        font-size: 12px;
+        font-size: 18px;
         font-family: serif;
         text-shadow: 0 0 9px rgba(0,0,0,0.9);
         position: relative;animation: fadeIn 2s ease 0s 1 normal;
         -webkit-animation: fadeIn 2s ease 0s 1 normal;
       }
       .sentences {
-        font-size: 8px;
+        font-size: 15px;
         color: white;
-        padding-left: 15px;
+        padding-left: 35px;
         font-family: serif;
         text-shadow: 0 0 9px rgba(0,0,0,0.9);
-        width: 250px;
-        padding-bottom: 8px;
+        width: 500px;
+        padding-bottom: 10px;
         position: relative;animation: fadeIn 3s ease 0s 1 normal;
         -webkit-animation: fadeIn 3s ease 0s 1 normal;
         transition: all  0.1s ease;
         &:hover {
           background-color: rgba(0, 0, 0, 0.7);
-          font-size: 14px;
-          width: 270px;
+          font-size: 18px;
+          width: 550px;
           padding: 5px;
         }
       }
     }
-  }  
+  } 
 }
